@@ -1,0 +1,7 @@
+It is WebDriver-Backed Selenium-RC for python.
+
+Usage:
+driver = WebDriver(command_executor='http://'+str(host)+':'+str(port)+'/wd/hub',desired_capabilities=cap)
+selenium = WebDriverBackedSelenium(driver)
+...
+selenium.click(locator);
